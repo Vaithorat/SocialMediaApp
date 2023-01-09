@@ -1,8 +1,8 @@
 import express from "express";
-import { getFeedPosts, getUserPosts, likePost } from "../controllers/posts";
-import { verifyToken } from "../middleware/auth";
+import { getFeedPosts, getUserPosts, likePost } from "../controllers/posts.js";
+import { verifyToken } from "../middleware/auth.js";
 
-const router = exppress.Router();
+const router = express.Router();
 
 // Read
 router.get("/", verifyToken, getFeedPosts);
