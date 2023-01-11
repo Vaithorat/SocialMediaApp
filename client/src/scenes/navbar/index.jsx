@@ -10,7 +10,7 @@ import {
   FormControl,
   useTheme,
   useMediaQuery,
-} from "@mui/system";
+} from "@mui/material";
 import {
   Search,
   Message,
@@ -38,14 +38,14 @@ const Navbar = () => {
   const background = theme.palette.background.default;
   const primaryLight = theme.palette.primary.light;
   const alt = theme.palette.background.alt;
-  const fullName = `${user.firstName} ${user.lastName}`;
+  const fullName = user?  `${user.firstName} ${user.lastName}` :"";
 
   return (
-    <FlexBetween padding="1rem 6%" backgroundCOlor={alt}>
+    <FlexBetween padding="1rem 6%" backgroundColor={alt}>
       <FlexBetween gap="1.75 rem">
         <Typography
           fontWeight="bold"
-          FontSize="clamp(1rem,2rem,2.25rem)"
+          fontSize="clamp(1rem,2rem,2.25rem)"
           color="primary"
           onClick={() => navigate("/home")}
           sx={{
@@ -55,7 +55,7 @@ const Navbar = () => {
             },
           }}
         >
-          Rinstagram
+          Sociopedia
         </Typography>
         {isNonMobileScreens && (
           <FlexBetween
