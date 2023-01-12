@@ -55,7 +55,7 @@ const Navbar = () => {
             },
           }}
         >
-          Sociopedia
+          Rinstagram
         </Typography>
         {isNonMobileScreens && (
           <FlexBetween
@@ -63,6 +63,7 @@ const Navbar = () => {
             borderRadius="9px"
             gap="3rem"
             padding="0.1rem 1.5rem"
+            marginLeft="1rem"
           >
             <InputBase placeholder="Search..." />
             <IconButton>
