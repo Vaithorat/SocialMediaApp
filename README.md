@@ -29,5 +29,5 @@ No, I haven't added update profile features yet.
 
 ## Screenshots
 
-![App Screenshot]![1](https://user-images.githubusercontent.com/108602138/212290453-adb0c79a-9831-4b77-848f-d3765645deff.JPG)
-![App Screenshot]![2e](https://user-images.githubusercontent.com/108602138/212290481-01f0e251-6333-4ff3-99b3-a7de9489971b.JPG)
+![1](https://user-images.githubusercontent.com/108602138/212290453-adb0c79a-9831-4b77-848f-d3765645deff.JPG)
+![2e](https://user-images.githubusercontent.com/108602138/212290481-01f0e251-6333-4ff3-99b3-a7de9489971b.JPG)
