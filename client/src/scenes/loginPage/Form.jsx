@@ -54,7 +54,7 @@ const Form = () => {
   const isNonMobile = useMediaQuery("(min-width:600px)");
   const isLogin = pageType === "login";
   const isRegister = pageType === "register";
-  const BASE_URL = "http://localhost:3001";
+  const BASE_URL = "https://socialmediabackend-1dj5.onrender.com";
   const register = async (values, onSubmitProps) => {
     // this allows us to send form info with image
     const formData = new FormData();
