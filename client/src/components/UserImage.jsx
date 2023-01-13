@@ -1,5 +1,5 @@
 import { Box } from "@mui/material";
-const BASE_URL = "http://localhost:3001";
+const BASE_URL = "https://socialmediabackend-1dj5.onrender.com";
 const UserImage = ({ image, size = "60px" }) => {
   return (
     <Box width={size} height={size}>

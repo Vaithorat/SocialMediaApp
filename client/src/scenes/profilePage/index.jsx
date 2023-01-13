@@ -8,7 +8,7 @@ import FriendListWidget from "scenes/widgets/FriendListWidget";
 import MyPostWidget from "scenes/widgets/MyPostWidget";
 import PostsWidget from "scenes/widgets/PostsWidget";
 import UserWidget from "scenes/widgets/UserWidget";
-const BASE_URL = `http://localhost:3001`
+const BASE_URL = `https://socialmediabackend-1dj5.onrender.com`
 const ProfilePage = () => {
   const [user, setUser] = useState(null);
   const { userId } = useParams();

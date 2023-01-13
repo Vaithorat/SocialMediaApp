@@ -11,7 +11,7 @@ import {
   import { useSelector } from "react-redux";
   import { useEffect, useState } from "react";
   import { useNavigate } from "react-router-dom";
-  const BASE_URL = "http://localhost:3001"
+  const BASE_URL = "https://socialmediabackend-1dj5.onrender.com"
   const UserWidget = ({ userId, picturePath }) => {
     const [user, setUser] = useState(null);
     const { palette } = useTheme();

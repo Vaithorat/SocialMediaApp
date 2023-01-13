@@ -5,7 +5,8 @@ import { useNavigate } from "react-router-dom";
 import { setFriends } from "state";
 import FlexBetween from "./FlexBetween";
 import UserImage from "./UserImage";
-const BASE_URL = "http://localhost:3001";
+// const BASE_URL = "http://localhost:3001";
+const BASE_URL = "https://socialmediabackend-1dj5.onrender.com";
 const Friend = ({ friendId, name, subtitle, userPicturePath }) => {
   const { palette } = useTheme();
   const dispatch = useDispatch();

@@ -24,7 +24,7 @@ import {
   import { useState } from "react";
   import { useDispatch, useSelector } from "react-redux";
   import { setPosts } from "state";
-const BASE_URL = "http://localhost:3001"
+const BASE_URL = "https://socialmediabackend-1dj5.onrender.com"
   
   const MyPostWidget = ({ picturePath }) => {
     const dispatch = useDispatch();

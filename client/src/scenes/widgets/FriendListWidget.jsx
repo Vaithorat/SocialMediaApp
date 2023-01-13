@@ -10,7 +10,7 @@ const FriendListWidget = ({ userId }) => {
   const { palette } = useTheme();
   const token = useSelector((state) => state.token);
   const friends = useSelector((state) => state.user.friends);
-  const BASE_URL = `http://localhost:3001`
+  const BASE_URL = `https://socialmediabackend-1dj5.onrender.com`
   const getFriends = async () => {
     const response = await fetch(
       `${BASE_URL}/users/${userId}/friends`,
