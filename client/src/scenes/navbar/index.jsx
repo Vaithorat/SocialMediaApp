@@ -55,7 +55,7 @@ const Navbar = () => {
             },
           }}
         >
-          Rinstagram
+          Retrogram
         </Typography>
         {isNonMobileScreens && (
           <FlexBetween

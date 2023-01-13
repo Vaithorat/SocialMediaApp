@@ -14,7 +14,7 @@ const LoginPage = () => {
       >
         <Typography
           fontWeight="bold" fontSize= "32px" color="primary">
-            Rinstagram
+            Retrogram
         </Typography>
       </Box>
       <Box
@@ -25,7 +25,7 @@ const LoginPage = () => {
         backgroundColor={theme.palette.background.alt}
       >
         <Typography fontWeight="500" variant="h5" sx= {{mb:"1.5rem"}}>
-    Welcome to Rinstagram, i.e. Another Instagram
+    Welcome to Retrogram
         </Typography>
         <Form/>
       </Box>
