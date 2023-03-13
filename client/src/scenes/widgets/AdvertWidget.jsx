@@ -1,7 +1,7 @@
 import { Typography, useTheme } from "@mui/material";
 import FlexBetween from "components/FlexBetween";
 import WidgetWrapper from "components/WidgetWrapper";
-const BASE_URL = `https://socialmediabackend-1dj5.onrender.com`
+const BASE_URL = `https://socialmediabackend-1dj5.onrender.com` //website render
 const AdvertWidget = () => {
   const { palette } = useTheme();
   const dark = palette.neutral.dark;
